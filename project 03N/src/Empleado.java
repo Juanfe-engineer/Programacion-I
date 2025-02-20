@@ -17,13 +17,9 @@
 //2. Implementar métodos para acceder y modificar los datos (getters y setters).
 //3. Crear una lista de empleados para gestionar múltiples registros.
 
-import java.security.PrivateKey;
 
 /// ¿Qué debo hacer para probar las funcionalidades?
 // Probar la funcionalidad mediante una interfaz de consola.
-
-import java.util.ArrayList;
-import java.util.Scanner;
 
 
 
@@ -65,4 +61,6 @@ class Empleado {
                 " | Fecha de contratación: " + fechaContratacion);
     }
 }
+
+
 

@@ -1,7 +1,11 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        String correo = JOptionPane.showInputDialog(" Ingrese el correo del empleado");
+///  Mejor interfaz para agregar valor al objeto, CAMBIARLO Y MEJORAR CODIGO
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar datos al usuario
@@ -14,8 +18,8 @@ public class Main {
         System.out.print("Ingrese el puesto del empleado: ");
         String puesto = scanner.nextLine();
 
-        System.out.print("Ingrese el correo del empleado: ");
-        String correo = scanner.nextLine();
+//        String correo = JOptionPane.showInputDialog(" Ingrese el correo del empleado");
+        System.out.print(correo);
 
         System.out.print("Ingrese el teléfono del empleado: ");
         String telefono = scanner.nextLine();
